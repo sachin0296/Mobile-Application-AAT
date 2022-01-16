@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:id="@+id/ctr"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/abcde"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:justificationMode="inter_word"
+        android:text="At Zikshana we work to bridge a huge gap created by present educationsystem and social life demands. We are determined to touch and nurture the four fundamentalparts of the brain as categorized in the yogic science to bring the balance and enormous successin to every students career. We at “Zikshana” engaged into educational and its allied support services.We believe that every child has the right to the very best education. Zikshana withthe deepened commitment strives to be a great educational organization, where we preparestudents for lives of purpose, achievement, and generosity of spirit. We are committed to helpchildren to become lifelong learners to have a passion for new knowledge and skills. Education is the birthright of every child thus our online education programs for kids areboosting their growth without even our physical presence there. In the reign of the pandemic, kidsonline classes have become a norm. Thus for the schools and institutions."
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="464dp"
+        android:layout_height="441dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="343dp"
+        android:gravity="center"
+        android:text="@string/messageWithLink"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@drawable/logo"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/abcde"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+</RelativeLayout>
